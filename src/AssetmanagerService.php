@@ -115,7 +115,7 @@ class AssetmanagerService
         }
         switch ($type) {
             case 'css-inline':
-                $this->_cssIninePaths[] = $file;
+                $this->_cssInlinePaths[] = $file;
                 break;
             case 'js-inline':
                 $this->_jsIlnnePaths[] = $file;
