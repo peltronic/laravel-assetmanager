@@ -1,5 +1,5 @@
 <?php
-namespace Psgc\Assetmanager;
+namespace Peltronic\Assetmanager;
 
 // see:
 // https://medium.com/@markustripp/laravel-5-5-package-development-e72f3e7a8f38

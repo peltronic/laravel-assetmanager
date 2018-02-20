@@ -1,5 +1,5 @@
 <?php
-namespace Psgc\Assetmanager;
+namespace Peltronic\Assetmanager;
 
 use Illuminate\Support\ServiceProvider;
 

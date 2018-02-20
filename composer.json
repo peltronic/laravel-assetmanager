@@ -1,5 +1,5 @@
 {
-    "name": "psgc/assetmanager",
+    "name": "peltronic/laravel-assetmanager",
     "description": "JS and CSS manager libraries",
     "type": "library",
     "authors": [
@@ -14,17 +14,17 @@
 
     "autoload": {
         "psr-4": {
-            "Psgc\\Assetmanager\\": "src/"
+            "Peltronic\\Assetmanager\\": "src/"
         }
     },
 
     "extra": {
         "laravel": {
             "providers": [
-                "Psgc\\Assetmanager\\AssetmanagerServiceProvider"
+                "Peltronic\\Assetmanager\\AssetmanagerServiceProvider"
             ],
             "aliases": {
-                "Assetmanager": "Psgc\\Assetmanager\\AssetmanagerFacade"
+                "Assetmanager": "Peltronic\\Assetmanager\\AssetmanagerFacade"
             }
         }
     }
