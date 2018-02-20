@@ -1,0 +1,31 @@
+{
+    "name": "psgc/assetmanager",
+    "description": "JS and CSS manager libraries",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Peter Gorgone",
+            "email": "peter@peltronic.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Psgc\\Assetmanager\\": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Psgc\\Assetmanager\\AssetmanagerServiceProvider"
+            ],
+            "aliases": {
+                "Assetmanager": "Psgc\\Assetmanager\\AssetmanagerFacade"
+            }
+        }
+    }
+}
