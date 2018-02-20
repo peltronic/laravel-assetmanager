@@ -9,16 +9,18 @@ class AssetmanagerServiceProvider extends ServiceProvider
 
 	public function boot() {
 
+        /*
 		$this->publishes([
 			__DIR__.'/../config/assetmanager.php' => config_path('assetmanager.php'),
 		], 'assetmanager');
+         */
 	}
 
     public function register() {
-		$this->mergeConfigFrom( __DIR__.'/../config/assetmanager.php', 'assetmanager');
+		//$this->mergeConfigFrom( __DIR__.'/../config/assetmanager.php', 'assetmanager');
 
         $this->app->singleton('assetmanager', function($app) {
-            $config = $app->make('config');
+            //$config = $app->make('config');
 
             //$uri = $config->get('assetmanager.uri');
             //$uriOptions = $config->get('assetmanager.uriOptions');
