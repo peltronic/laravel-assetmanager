@@ -3,7 +3,7 @@ namespace Peltronic\Assetmanager;
 
 use Illuminate\Support\ServiceProvider;
 
-class AssetmangerServiceProvider extends ServiceProvider
+class AssetmanagerServiceProvider extends ServiceProvider
 {
     protected $defer = true;
 
@@ -26,6 +26,8 @@ class AssetmangerServiceProvider extends ServiceProvider
 
             return new AssetmanagerService();
         });
+
+        $this->app->alias('assetmanager', AssetmanagerService::class);
     }
 
     public function provides() {

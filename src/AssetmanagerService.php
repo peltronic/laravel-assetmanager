@@ -8,7 +8,7 @@ namespace Peltronic\Assetmanager;
 // https://laracasts.com/discuss/channels/tips/developing-your-packages-in-laravel-5
 // https://medium.com/@tabacitu/creating-laravel-5-packages-for-dummies-ec6a4ded2e93
 // https://medium.com/@lasselehtinen/getting-started-on-laravel-package-development-a62110c58ba1
-class AssetmangerService
+class AssetmanagerService
 {
 
     private $_jsInlinePaths;
