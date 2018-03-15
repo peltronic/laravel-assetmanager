@@ -118,7 +118,7 @@ class AssetmanagerService
                 $this->_cssInlinePaths[] = $file;
                 break;
             case 'js-inline':
-                $this->_jsIlnnePaths[] = $file;
+                $this->_jsInlinePaths[] = $file;
                 break;
             case 'js-lib':
                 $this->_jsLibPaths[] = $file;
